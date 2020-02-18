@@ -8,7 +8,7 @@
         url('/fonts/FuturaPT-Heavy.woff2') format('woff2'),
         url('/fonts/FuturaPT-Heavy.woff') format('woff'),
         url('/fonts/FuturaPT-Heavy.ttf') format('truetype');
-  }
+}
 @font-face {
     font-family: 'Georgia Italic';
     src: url('/fonts/Georgia-Italic.eot');
@@ -117,38 +117,37 @@ h2{
     font-weight: 400;
     font-size: 30px;
     color: #8f8f8f;
-    letter-spacing: 1.5px;
+    letter-spacing: 0.1px;
     margin-bottom: 45px;
 }
 
-.paragraph1, .paragraph2{
-    font-family: 'Georgia Regular', serif;
-    font-size: 27px;
-    line-height: 40px;
-    letter-spacing: 1px;
-    text-align: justify;
-}
 
 .paragraph1{
     margin-bottom: 20px;
 }
 
-span{
-    font-family: 'Georgia Italic', serif;
-}
-
 .wrapper{
-    width: 925px;
+    width: 930px;
     height: 100%;
     margin: 0 auto;
     border-left: 2px #e8eced solid;
     padding-left: 55px;
     padding-right: 55px;
     padding-top: 200px;
-    box-sizing:border-box
+    box-sizing:border-box;
 }
 
 .wrapper-main{
     width: 1200px;
     margin: 0 auto;
+}
+
+.paragraph1, .paragraph2{
+    font-family: 'Georgia Regular', serif;
+    font-size: 27px;
+    line-height: 40px;
+}
+
+span{
+    font-family: 'Georgia Italic', serif;
 }
