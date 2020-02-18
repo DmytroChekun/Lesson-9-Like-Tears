@@ -120,6 +120,10 @@ h2{
     margin-bottom: 45px;
 }
 
+span{
+    font-family: 'GeorgiaItalic', serif;
+}
+
 
 .paragraph1{
     margin-bottom: 20px;
@@ -145,8 +149,4 @@ h2{
     font-family: 'GeorgiaRegular', serif;
     font-size: 27px;
     line-height: 40px;
-}
-
-span{
-    font-family: 'GeorgiaItalic', serif;
 }
