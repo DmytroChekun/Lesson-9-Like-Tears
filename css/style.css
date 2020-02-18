@@ -3,21 +3,20 @@
     src: url('/fonts/ProximaNovaRegular.otf') format('opentype');
 }
 @font-face {
-    font-family: 'Futura PT';
+    font-family: 'FuturaPT';
     src: local('Futura PT Heavy'), local('Futura-PT-Heavy'),
         url('/fonts/FuturaPT-Heavy.woff2') format('woff2'),
         url('/fonts/FuturaPT-Heavy.woff') format('woff'),
         url('/fonts/FuturaPT-Heavy.ttf') format('truetype');
 }
 @font-face {
-    font-family: 'Georgia Italic';
-    src: url('/fonts/Georgia-Italic.eot');
-    src: url('/fonts/Georgia-Italic.eot?#iefix') format('embedded-opentype'),
+    font-family: 'GeorgiaItalic';
+    src: url('/fonts/Georgia-Italic.eot') format('opentype'),
     url('/fonts/Georgia-Italic.woff') format('woff'),
     url('/fonts/Georgia-Italic.ttf') format('truetype');
 }
 @font-face {
-    font-family: 'Georgia Regular';
+    font-family: 'GeorgiaRegular';
     src: url('/fonts/Georgia.eot');
     src: url('/fonts/Georgia.eot?#iefix') format('embedded-opentype'),
     url('/fonts/Georgia.woff') format('woff'),
@@ -112,7 +111,7 @@ h1{
     margin-top: 22px;
 }
 h2{
-    font-family: 'Georgia Italic', serif;
+    font-family: 'GeorgiaItalic', serif;
     font-style: italic;
     font-weight: 400;
     font-size: 30px;
@@ -143,11 +142,11 @@ h2{
 }
 
 .paragraph1, .paragraph2{
-    font-family: 'Georgia Regular', serif;
+    font-family: 'GeorgiaRegular', serif;
     font-size: 27px;
     line-height: 40px;
 }
 
 span{
-    font-family: 'Georgia Italic', serif;
+    font-family: 'GeorgiaItalic', serif;
 }
