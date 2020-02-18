@@ -112,7 +112,7 @@ h1{
     margin-top: 22px;
 }
 h2{
-    font-family: 'Georgia Italic' serif;
+    font-family: 'Georgia Italic', serif;
     font-style: italic;
     font-weight: 400;
     font-size: 30px;
@@ -122,7 +122,7 @@ h2{
 }
 
 .paragraph1, .paragraph2{
-    font-family: 'Georgia Regular' serif;
+    font-family: 'Georgia Regular', serif;
     font-size: 27px;
     line-height: 40px;
     letter-spacing: 1px;
